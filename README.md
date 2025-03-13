@@ -10,10 +10,11 @@
 ## 📑 Tools used -
 
 1️⃣ Core Python Libraries
-##### 🌐 socket ➡️ Fetches IP addresses of domains  
-##### 🔍 re ➡️ Regular expressions for parsing emails, URLs, etc.  
-##### 📄 json ➡️ Handles API responses and data serialization  
-##### 🖥️ os ➡️ Interacts with system commands (if needed)  
+##### 🌐 socket ➜ Fetches IP addresses of domains  
+##### 🔍 re ➜ Regular expressions for parsing emails, URLs, etc.  
+##### 📄 json ➜ Handles API responses and data serialization  
+##### 🖥️ os ➜ Interacts with system commands (if needed)  
+ 
 
 ## 📑 Table of Contents
 - [Introduction](#introduction)
