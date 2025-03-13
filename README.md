@@ -1,168 +1,126 @@
-📌 Automated Information Gathering Tool
-🚀 An advanced OSINT tool for Active & Passive reconnaissance, integrating APIs like Shodan, VirusTotal, and Have I Been Pwned.
-🔍 Built with Python & Streamlit for an intuitive UI and modular scanning framework.
+# 💻 The-Hunt
 
-📖 Table of Contents
-Introduction
-Features
-Project Structure
-Installation
-Usage
-Scanners & Functionalities
-Configuration (API Keys)
-Future Enhancements
-Contributing
-License
-📌 Introduction
-This tool automates information gathering for ethical hackers, penetration testers, and security researchers.
-It provides both Active and Passive reconnaissance techniques, allowing users to scan domains, IPs, emails, and websites efficiently.
+[![Python](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/) 
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://js.org/index.html) 
 
-✅ OSINT-focused reconnaissance tool
-✅ APIs integration with Shodan, VirusTotal, Have I Been Pwned
-✅ Modular design (easy to add new scanners)
-✅ Built using Python & Streamlit
+[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![Mochawesome Reports](https://img.shields.io/badge/Mochawesome%20Reports-<COLOR>?style=for-the-badge&logo=mochawesome&logoColor=white)](https://www.npmjs.com/package/cypress-mochawesome-reporter)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
-🌟 Features
-✅ Active Information Gathering
+## 📑 Tools used -
 
-WHOIS Lookup
-DNS Records Retrieval
-IP & Hosting Information
-Website Vulnerability Scanning
-Shodan Open Ports & Services Check
-✅ Passive Information Gathering
+1️⃣ Core Python Libraries
+- socket	Fetches IP addresses of domains
+- re	Regular expressions for parsing emails, URLs, etc.
+- json	Handles API responses and data serialization
+- os	Interacts with system commands (if needed)
 
-Email Harvesting
-Social Media Profile Discovery
-Website Technology Stack Identification
-VirusTotal Domain Reputation Check
-Data Breach Lookup via Have I Been Pwned
-GitHub Leaks Discovery
-✅ Streamlit Web UI
+## 📑 Table of Contents
+- [Introduction](#introduction)
+- [Features](features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Running Tests](#running-tests)
+- [Project Structure](#project-structure)
+- [Configuration](#configuration)
+- [Continuous Integration](#continuous-integration)
+- [Reporting](#reporting)
 
-Simple & user-friendly interface for easy scanning
-Select multiple scan types at once
-✅ Modular Structure
+## 📖 Introduction
+This repository contains a Test Automation Framework, built using Cypress and Javascript for automated testing for this site: https://www.saucedemo.com/
 
-Easy to extend with new scanning modules
-Implements OOP best practices with a BaseScanner class
-📂 Project Structure
-bash
-Copy
-Edit
-info_gathering_tool/
-│── main.py  # Streamlit UI
-│── modules/
-│   │── base_scanner.py  # Base class for scanners
-│   │── active_scanner.py
-│   │── passive_scanner.py
-│   │── scanners/
-│   │   │── whois_scanner.py
-│   │   │── dns_scanner.py
-│   │   │── ip_scanner.py
-│   │   │── email_scanner.py
-│   │   │── social_media_scanner.py
-│   │   │── tech_stack_scanner.py
-│   │   │── vulnerability_scanner.py
-│   │   │── shodan_scanner.py
-│   │   │── virustotal_scanner.py
-│   │   │── hibp_scanner.py
-│   │   │── github_leak_scanner.py
-│── config.py  # Stores API keys
-│── requirements.txt
-│── README.md
-⚡ Installation
-1️⃣ Clone the Repository
-sh
-Copy
-Edit
-git clone https://github.com/your-username/info-gathering-tool.git
-cd info-gathering-tool
-2️⃣ Install Dependencies
-sh
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Add API Keys (For Advanced Scanners)
-Edit config.py and add your API keys.
-python
-Copy
-Edit
-SHODAN_API_KEY = "your_shodan_api_key"
-VIRUSTOTAL_API_KEY = "your_virustotal_api_key"
-HIBP_API_KEY = "your_hibp_api_key"
-🛠 Usage
-Running the Tool
-sh
-Copy
-Edit
-streamlit run main.py
-Using the UI
-Select Active or Passive Information Gathering
-Choose the types of scans
-Enter a target (Domain/IP/URL/Email)
-Click "Start Gathering"
-View results directly in Streamlit UI
-🔍 Scanners & Functionalities
-Scanner	Description	Type
-WHOIS Lookup	Fetches WHOIS information of a domain	Active
-DNS Records	Retrieves A, MX, NS, TXT, CNAME records	Active
-IP & Hosting Info	Fetches the IP address of a domain	Active
-Website Vulnerabilities	Checks for basic website security flaws	Active
-Shodan Scan	Finds open ports & vulnerabilities using Shodan API	Active
-Email Harvesting	Extracts emails from a website	Passive
-Social Media Presence	Finds social media profiles of a target	Passive
-Tech Stack Identification	Identifies website technologies (CMS, Frameworks)	Passive
-VirusTotal Check	Checks if a domain is blacklisted	Passive
-HIBP Breach Check	Finds breached emails from Have I Been Pwned API	Passive
-GitHub Leaks	Searches GitHub for leaked credentials	Passive
-⚙️ Configuration (API Keys)
-Some features require API keys. Register for free at:
+## 🚀 Key Features
+This Cypress project is designed for robust end-to-end testing, incorporating best practices and advanced features to enhance test automation efficiency.
+- ✅ Page Object Model (POM) – Organized test structure using reusable page classes to improve maintainability.
+- ✅ Data-Driven Testing – Uses external test data for login credentials and other scenarios, ensuring flexibility and scalability.
+- ✅ Custom Commands – Encapsulates frequently used actions like login to reduce redundancy and improve readability.
+- ✅ Advanced Module Integrations:
+   - XPath Support – Enables selecting elements using XPath.
+   - Cross-Environment Configuration – Allows testing across multiple environments (e.g., production & development) by dynamically setting the base URL.
+   - Screenshots & Videos – Automatically captures test evidence for debugging and reporting.
+   - Retries on Failures – Configured retries to improve test stability.
+   - Test Grouping with Grep – Supports running specific test groups using Cypress grep.
+- ✅ Custom Scripts – Optimized package.json scripts for running tests across different browsers, environments, and headless modes.
+- ✅ Mochawesome Reporting – Generates detailed, interactive HTML reports with screenshots and logs for better test analysis.
+- ✅ CI/CD Integration with GitHub Actions:
+   - Runs tests automatically on every push & pull request.
+   - Scheduled execution Monday to Friday at noon (UTC).
+   - Supports manual test execution triggers via GitHub Actions workflow.
 
-Shodan
-VirusTotal
-Have I Been Pwned
-Once obtained, add them to config.py:
+## 🛠️ Prerequisites
 
-python
-Copy
-Edit
-SHODAN_API_KEY = "your_key_here"
-VIRUSTOTAL_API_KEY = "your_key_here"
-HIBP_API_KEY = "your_key_here"
-🚀 Future Enhancements
-✅ PDF/HTML Reporting - Generate structured reports of findings
-✅ Real-Time Alerts - Send alerts via Telegram/Slack
-✅ AI-based Risk Analysis - Use OpenAI API for threat scoring
-✅ Database Logging - Store scan results for later analysis
+- [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) (v18.16.1 or higher recommended)
+- [![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/) (v9.5.1 or higher recommended)
 
-📝 Contributing
-Want to improve this tool? 🎯
-Contributions are welcome! Follow these steps:
+## ▶️ Getting Started
 
-Fork the repo 🍴
-Create a feature branch (git checkout -b new-feature)
-Commit changes (git commit -m "Added new feature")
-Push to GitHub (git push origin new-feature)
-Create a Pull Request! 🚀
-📜 License
-📄 This project is licensed under the MIT License – free to use and modify.
+1. Clone the repository:
 
-🔗 Author: Your Name
-🔗 GitHub: Your Profile
+   ```bash
+   git clone https://github.com/imranalmunyeem/saucedemo-e2e-cypress.git
+   ```
 
-🚀 Final Thoughts
-This Automated Information Gathering Tool is an advanced OSINT solution, ideal for cybersecurity professionals, pentesters, and researchers.
+2. Navigate to the project directory:
 
-✅ Fast, Modular, and Scalable
-✅ OSINT-focused & API-powered
-✅ Security Automation for Ethical Hackers
+   ```bash
+   cd saucedemo-e2e-cypress
+   ```
 
-🎯 Want to add new features? Fork the repo and start contributing!
+3. Install dependencies:
 
-⭐ Found this project useful? Give it a star on GitHub! 🚀🌟
+   ```bash
+   npm install
+   ```
 
-🔗 Links
-Shodan API Key → Get Here
-VirusTotal API Key → Get Here
-Have I Been Pwned API Key → Get Here
+## 🚀 Running Tests
+
+  ```bash
+  npm test
+  ```
+
+## 📁 Project Structure
+
+The tests follow a modular and maintainable structure:
+
+```
+|-- .github
+|     |-- workflows
+|          |-- cypress-tests.yml                # GitHub Actions CI/CD workflow
+|-- cypress
+|     |-- e2e
+|          |-- SauceDemo
+|                |-- login.spec.js              # Login test cases
+|                |-- product.spec.js            # Product page test cases
+|     |-- fixtures
+|           |-- request-body
+|                |-- login_credentials.json     # Test data
+|     |-- reports                               # Stores test execution reports
+|     |-- support
+|          |-- pages
+|                |-- LoginPage.js               # Page Object Model for Login page
+|                |-- ProductPage.js             # Page Object Model for Product page
+|          |-- commands.js                      # Custom Cypress commands
+|          |-- e2e.js                           # Global test configurations
+|-- .gitignore
+|-- cypress.config.js                           # Cypress configuration settings
+|-- package.json                                # Project dependencies and custom scripts
+```
+
+- `cypress/e2e`: Contains the actual test files. You can organize your tests into subdirectories as needed. 
+- `cypress/fixtures`: Contains external files (example: user create/update data) that can be used to mock data during tests.
+- `cypress/reports`: Contains the report for tests (Logs are attached).
+- `cypress/support`: Contains custom commands and global configuration.
+- `cypress/support/utils`: Contains the Utilities that provides methods for asserting different conditions on web elements, handling requests and responses.
+
+## ⚙️ Configuration
+
+- Modify `cypress.config.json` for Cypress configuration settings.
+- Customize `commands.js` and other files in `cypress/support` for reusable commands.
+
+## 🔄 Continuous Integration
+
+This project is configured for CI using Github Actions. Check the configurations in `.github/workflows/*.yml`.
+
+## 📊 Reporting
+
+Mochawesome report (Logs are attached) is stored in the `cypress/reports` directory.
