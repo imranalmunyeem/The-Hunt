@@ -4,7 +4,7 @@
 <br>
 
 ## 📖 Table of Contents
-- [Introduction](#📌-introduction)
+- [Introduction](## 📌 Introduction)
 - [Tools & Libraries Used](#🛠️-tools--libraries-used)
 - [Features](#🌟-features)
 - [Project Structure](#📂-project-structure)
