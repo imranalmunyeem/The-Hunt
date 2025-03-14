@@ -17,17 +17,17 @@
 <br>
 
 ## 📌 Introduction
-This tool automates information gathering for ethical hackers, penetration testers, and security researchers.
-It provides both Active and Passive reconnaissance techniques, allowing users to scan domains, IPs, emails, and websites efficiently.
+##### This tool automates information gathering for ethical hackers, penetration testers, and security researchers.
+##### It provides both Active and Passive reconnaissance techniques, allowing users to scan domains, IPs, emails, and websites efficiently.
 
-✅ OSINT-focused reconnaissance tool
-✅ APIs integration with Shodan, VirusTotal, Have I Been Pwned
-✅ Modular design (easy to add new scanners)
-✅ Built using Python & Streamlit
+##### ✅ OSINT-focused reconnaissance tool
+##### ✅ APIs integration with Shodan, VirusTotal, Have I Been Pwned
+##### ✅ Modular design (easy to add new scanners)
+##### ✅ Built using Python & Streamlit
 <br>
 
-## 🛠️ Tools & Libraries Used
 
+## 🛠️ Tools & Libraries Used
 [![Python](https://img.shields.io/badge/Python-17202C?style=for-the-badge&logo=python&logoColor=yellow)](https://www.python.org/) 
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
@@ -145,9 +145,7 @@ streamlit run main.py
 ##### 4️⃣ Click "Start Gathering"
 ##### 5️⃣ View results directly in Streamlit UI
 
-## 🔍 Scanners & Functionalities
-## 🔍 Scanners & Functionalities  
-
+## 🔍 Scanners & Functionalities 
 | 🛠️ Scanner                  | 🔎 Description                                             | 📌 Type   |
 |-----------------------------|----------------------------------------------------------|-----------|
 | 🏷️ WHOIS Lookup             | Fetches WHOIS information of a domain                   | Active    |
