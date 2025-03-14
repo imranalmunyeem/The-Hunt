@@ -34,18 +34,15 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ##### 📄 json ➜ Handles API responses and data serialization  
 ##### 🖥️ os ➜ Interacts with system commands (if needed)  
 <br>
-
 ### 2️⃣ Web Scraping & HTTP Requests ➡️
 ##### 🌍 requests ➜ Sends HTTP requests to websites and APIs
 ##### 🏗️ BeautifulSoup ➜ Extracts information from HTML pages
 ##### 🕷️ Scrapy ➜ (Optional) For advanced web crawling
 <br>
-
 ### 3️⃣ DNS & WHOIS Lookup ➡️
 ##### 📡 python-whois ➜ Retrieves WHOIS information for domains
 ##### 🌍 dnspython ➜ Resolves DNS records (A, MX, TXT, NS, CNAME)
 <br>
-
 ### 4️⃣ OSINT & Cybersecurity APIs ➡️
 ##### 🔎 Shodan ➜ Finds open ports, services, vulnerabilities
 ##### 🛡️ VirusTotal ➜ Checks if a domain/IP is blacklisted
