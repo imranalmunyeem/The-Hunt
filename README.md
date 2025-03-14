@@ -20,25 +20,25 @@ This repository contains a Test Automation Framework, built using Cypress and Ja
 [![Python](https://img.shields.io/badge/Python-17202C?style=for-the-badge&logo=python&logoColor=yellow)](https://www.python.org/) 
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
-1️⃣ Core Python Libraries
+1️⃣ Core Python Libraries ➡️
 ##### 🌐 socket ➜ Fetches IP addresses of domains  
 ##### 🔍 re ➜ Regular expressions for parsing emails, URLs, etc.  
 ##### 📄 json ➜ Handles API responses and data serialization  
 ##### 🖥️ os ➜ Interacts with system commands (if needed)  
 <br>
 
-2️⃣ Web Scraping & HTTP Requests
+2️⃣ Web Scraping & HTTP Requests ➡️
 ##### 🌍 requests ➜ Sends HTTP requests to websites and APIs
 ##### 🏗️ BeautifulSoup ➜ Extracts information from HTML pages
 ##### 🕷️ Scrapy ➜ (Optional) For advanced web crawling
 <br>
 
-3️⃣ DNS & WHOIS Lookup
+3️⃣ DNS & WHOIS Lookup ➡️
 ##### 📡 python-whois ➜ Retrieves WHOIS information for domains
 ##### 🌍 dnspython ➜ Resolves DNS records (A, MX, TXT, NS, CNAME)
 <br>
 
-4️⃣ OSINT & Cybersecurity APIs
+4️⃣ OSINT & Cybersecurity APIs ➡️
 ##### 🔎 Shodan ➜ Finds open ports, services, vulnerabilities
 ##### 🛡️ VirusTotal ➜ Checks if a domain/IP is blacklisted
 ##### 🔐 Have I Been Pwned (HIBP) ➜ Checks if emails are in data breaches
@@ -46,16 +46,16 @@ This repository contains a Test Automation Framework, built using Cypress and Ja
 ##### 🔄 ViewDNS ➜ Performs reverse IP lookups
 <br>
 
-5️⃣ Social Media & GitHub Intelligence
+5️⃣ Social Media & GitHub Intelligence ➡️
 ##### 📱 Selenium ➜ Scrapes social media profiles
 ##### 🛠️ GitHub API ➜ Finds leaked credentials in public repositories
 <br>
 
-6️⃣ Web Framework & UI
+6️⃣ Web Framework & UI ➡️
 ##### 📊 Streamlit ➜ Creates an interactive web-based UI
 <br>
 
-7️⃣ Reporting & Export
+7️⃣ Reporting & Export ➡️
 ##### 📑 pandas ➜ Processes and formats scanned data
 ##### 📄 pdfkit ➜ (Optional) Converts reports to PDF
 ##### 📊 csv ➜ Saves results in CSV format
