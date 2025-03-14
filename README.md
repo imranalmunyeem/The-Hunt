@@ -1,34 +1,58 @@
 # 💻 The-Hunt
+ 
+## 📑 Table of Contents
+- [Introduction](#introduction)
+- [Tools & Libraries Used](#Tools_Libraries)
+- [Features](features)
+- [Project Structure](#Project_Structure)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Scanners & Functionalities](#Scanners_Functionalities)
+- [Configuration](#configuration)
+- [Contributing](#Contributing)
+- [License](#License)
+
+## 📖 Introduction
+This repository contains a Test Automation Framework, built using Cypress and Javascript for automated testing for this site: https://www.saucedemo.com/
+
+# 📌 Tools & Libraries Used -
 
 [![Python](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/) 
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://js.org/index.html) 
-
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
-[![Mochawesome Reports](https://img.shields.io/badge/Mochawesome%20Reports-<COLOR>?style=for-the-badge&logo=mochawesome&logoColor=white)](https://www.npmjs.com/package/cypress-mochawesome-reporter)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
-
-## 📑 Tools used -
 
 1️⃣ Core Python Libraries
 ##### 🌐 socket ➜ Fetches IP addresses of domains  
 ##### 🔍 re ➜ Regular expressions for parsing emails, URLs, etc.  
 ##### 📄 json ➜ Handles API responses and data serialization  
 ##### 🖥️ os ➜ Interacts with system commands (if needed)  
- 
 
-## 📑 Table of Contents
-- [Introduction](#introduction)
-- [Features](features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Running Tests](#running-tests)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Continuous Integration](#continuous-integration)
-- [Reporting](#reporting)
+2️⃣ Web Scraping & HTTP Requests
+##### 🌍 requests ➜ Sends HTTP requests to websites and APIs
+##### 🏗️ BeautifulSoup ➜ Extracts information from HTML pages
+##### 🕷️ Scrapy ➜ (Optional) For advanced web crawling
 
-## 📖 Introduction
-This repository contains a Test Automation Framework, built using Cypress and Javascript for automated testing for this site: https://www.saucedemo.com/
+3️⃣ DNS & WHOIS Lookup
+##### 📡 python-whois ➜ Retrieves WHOIS information for domains
+##### 🌍 dnspython ➜ Resolves DNS records (A, MX, TXT, NS, CNAME)
+
+4️⃣ OSINT & Cybersecurity APIs
+##### 🔎 Shodan ➜ Finds open ports, services, vulnerabilities
+##### 🛡️ VirusTotal ➜ Checks if a domain/IP is blacklisted
+##### 🔐 Have I Been Pwned (HIBP) ➜ Checks if emails are in data breaches
+##### 🌍 crt.sh ➜ Finds subdomains using certificate transparency logs
+##### 🔄 ViewDNS ➜ Performs reverse IP lookups
+
+5️⃣ Social Media & GitHub Intelligence
+##### 📱 Selenium ➜ Scrapes social media profiles
+##### 🛠️ GitHub API ➜ Finds leaked credentials in public repositories
+
+6️⃣ Web Framework & UI
+##### 📊 Streamlit ➜ Creates an interactive web-based UI
+
+7️⃣ Reporting & Export
+##### 📑 pandas ➜ Processes and formats scanned data
+##### 📄 pdfkit ➜ (Optional) Converts reports to PDF
+##### 📊 csv ➜ Saves results in CSV format
 
 ## 🚀 Key Features
 This Cypress project is designed for robust end-to-end testing, incorporating best practices and advanced features to enhance test automation efficiency.
