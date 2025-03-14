@@ -37,6 +37,7 @@ This repository contains a Test Automation Framework, built using Cypress and Ja
 ##### 📡 python-whois ➜ Retrieves WHOIS information for domains
 ##### 🌍 dnspython ➜ Resolves DNS records (A, MX, TXT, NS, CNAME)
 <br>
+
 4️⃣ OSINT & Cybersecurity APIs
 ##### 🔎 Shodan ➜ Finds open ports, services, vulnerabilities
 ##### 🛡️ VirusTotal ➜ Checks if a domain/IP is blacklisted
@@ -44,13 +45,16 @@ This repository contains a Test Automation Framework, built using Cypress and Ja
 ##### 🌍 crt.sh ➜ Finds subdomains using certificate transparency logs
 ##### 🔄 ViewDNS ➜ Performs reverse IP lookups
 <br>
+
 5️⃣ Social Media & GitHub Intelligence
 ##### 📱 Selenium ➜ Scrapes social media profiles
 ##### 🛠️ GitHub API ➜ Finds leaked credentials in public repositories
 <br>
+
 6️⃣ Web Framework & UI
 ##### 📊 Streamlit ➜ Creates an interactive web-based UI
 <br>
+
 7️⃣ Reporting & Export
 ##### 📑 pandas ➜ Processes and formats scanned data
 ##### 📄 pdfkit ➜ (Optional) Converts reports to PDF
