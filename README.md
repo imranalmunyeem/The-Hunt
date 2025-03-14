@@ -2,6 +2,7 @@
  
 ## 📖 Table of Contents
 - [Introduction](#📌-introduction)
+- [Tools & Libraries Used](#🛠️-tools--libraries-used)
 - [Features](#🌟-features)
 - [Project Structure](#📂-project-structure)
 - [Installation](#⚡-installation)
@@ -12,7 +13,30 @@
 - [Contributing](#📝-contributing)
 - [License](#📜-license)
 
-# 📖 Introduction
+## 📌 Introduction
+
+## 🛠️ Tools & Libraries Used
+
+## 🌟 Features
+
+## 📂 Project Structure
+
+## ⚡ Installation
+
+## 🛠 Usage
+
+## 🔍 Scanners & Functionalities
+
+## ⚙️ Configuration (API Keys)
+
+## 🚀 Future Enhancements
+
+## 📝 Contributing
+
+## 📜 License
+
+
+## 📌 Introduction
 This repository contains a Test Automation Framework, built using Cypress and Javascript for automated testing for this site: https://www.saucedemo.com/
 
 # 📌 Tools & Libraries Used -
