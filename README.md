@@ -1,6 +1,5 @@
 # 🔍 The-Hunt ➡ (Automated Information Gathering Tool)
-🚀 An advanced OSINT tool for Active & Passive reconnaissance, integrating APIs like Shodan, VirusTotal, and Have I Been Pwned.
-🔍 Built with Python & Streamlit for an intuitive UI and modular scanning framework.
+🚀 An advanced OSINT tool for Active & Passive reconnaissance.
  
 ## 📖 Table of Contents
 - [Introduction](#📌-introduction)
@@ -70,6 +69,29 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ##### 📊 csv ➜ Saves results in CSV format
 
 ## 🌟 Features
+✅ Active Information Gathering
+
+WHOIS Lookup
+DNS Records Retrieval
+IP & Hosting Information
+Website Vulnerability Scanning
+Shodan Open Ports & Services Check
+✅ Passive Information Gathering
+
+Email Harvesting
+Social Media Profile Discovery
+Website Technology Stack Identification
+VirusTotal Domain Reputation Check
+Data Breach Lookup via Have I Been Pwned
+GitHub Leaks Discovery
+✅ Streamlit Web UI
+
+Simple & user-friendly interface for easy scanning
+Select multiple scan types at once
+✅ Modular Structure
+
+Easy to extend with new scanning modules
+Implements OOP best practices with a BaseScanner class
 
 ## 📂 Project Structure
 
