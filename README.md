@@ -145,6 +145,7 @@ streamlit run main.py
 ##### 3️⃣ Enter a target (Domain/IP/URL/Email)
 ##### 4️⃣ Click "Start Gathering"
 ##### 5️⃣ View results directly in Streamlit UI
+<br>
 
 ## 🔍 Scanners & Functionalities 
 | 🛠️ Scanner                  | 🔎 Description                                             | 📌 Type   |
