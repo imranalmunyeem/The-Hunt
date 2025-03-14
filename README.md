@@ -4,17 +4,18 @@
 <br>
 
 ## 📖 Table of Contents
-- [Introduction](##-📌-Introduction)
-- [Tools & Libraries Used](#🛠️-tools--libraries-used)
-- [Features](#🌟-features)
-- [Project Structure](#📂-project-structure)
-- [Installation](#⚡-installation)
-- [Usage](#🛠-usage)
-- [Scanners & Functionalities](#🔍-scanners--functionalities)
-- [Configuration (API Keys)](#⚙️-configuration-api-keys)
-- [Future Enhancements](#🚀-future-enhancements)
-- [Contributing](#📝-contributing)
-- [License](#📜-license)
+- [Introduction](#introduction)  
+- [Tools & Libraries Used](#tools--libraries-used)  
+- [Features](#features)  
+- [Project Structure](#project-structure)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Scanners & Functionalities](#scanners--functionalities)  
+- [Configuration (API Keys)](#configuration-api-keys)  
+- [Future Enhancements](#future-enhancements)  
+- [Contributing](#contributing)  
+- [License](#license)  
+
 <br>
 
 ## 📌 Introduction
