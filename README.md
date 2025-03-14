@@ -1,16 +1,16 @@
 # 💻 The-Hunt
  
-## 📑 Table of Contents
-- [Introduction](#introduction)
-- [Tools & Libraries Used](#Tools_Libraries)
-- [Features](features)
-- [Project Structure](#Project_Structure)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Scanners & Functionalities](#Scanners_Functionalities)
-- [Configuration](#configuration)
-- [Contributing](#Contributing)
-- [License](#License)
+## 📖 Table of Contents
+- [Introduction](#📌-introduction)
+- [Features](#🌟-features)
+- [Project Structure](#📂-project-structure)
+- [Installation](#⚡-installation)
+- [Usage](#🛠-usage)
+- [Scanners & Functionalities](#🔍-scanners--functionalities)
+- [Configuration (API Keys)](#⚙️-configuration-api-keys)
+- [Future Enhancements](#🚀-future-enhancements)
+- [Contributing](#📝-contributing)
+- [License](#📜-license)
 
 # 📖 Introduction
 This repository contains a Test Automation Framework, built using Cypress and Javascript for automated testing for this site: https://www.saucedemo.com/
