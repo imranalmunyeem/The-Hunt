@@ -4,21 +4,21 @@
 <br>
 
 ## 📖 Table of Contents
-- [Introduction](#introduction)  
+- [Introduction](#-introduction)  
 - [Tools & Libraries Used](#tools--libraries-used)  
 - [Features](#-features)  
-- [Project Structure](#project-structure)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Scanners & Functionalities](#scanners--functionalities)  
-- [Configuration (API Keys)](#configuration-api-keys)  
-- [Future Enhancements](#future-enhancements)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [Project Structure](#-project-structure)  
+- [Installation](#-installation)  
+- [Usage](#-usage)  
+- [Scanners & Functionalities](#-scanners--functionalities)  
+- [Configuration (API Keys)](#%EF%B8%8F-configuration-api-keys)  
+- [Future Enhancements](#-future-enhancements)  
+- [Contributing](#-contributing)  
+- [Connect with me](#-connect-with-me)  
 
 <br>
 
-## Introduction
+## 📌 Introduction
 ##### This tool automates information gathering for ethical hackers, penetration testers, and security researchers.
 ##### It provides both Active and Passive reconnaissance techniques, allowing users to scan domains, IPs, emails, and websites efficiently.
 
