@@ -145,11 +145,11 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 streamlit run main.py
   ```
 ####   Using the UI
-1️⃣ Select Active or Passive Information Gathering
-2️⃣ Choose the types of scans
-3️⃣ Enter a target (Domain/IP/URL/Email)
-4️⃣ Click "Start Gathering"
-5️⃣ View results directly in Streamlit UI
+##### 1️⃣ Select Active or Passive Information Gathering
+##### 2️⃣ Choose the types of scans
+##### 3️⃣ Enter a target (Domain/IP/URL/Email)
+##### 4️⃣ Click "Start Gathering"
+##### 5️⃣ View results directly in Streamlit UI
 
 ## 🔍 Scanners & Functionalities
 
