@@ -1,4 +1,4 @@
-# 🔍 The-Hunt ➡ (Automated Information Gathering Tool)
+# 🔍 The-Hunt ➜ (Automated Information Gathering Tool)
 🚀 An advanced OSINT tool for Active & Passive reconnaissance.
  
 ## 📖 Table of Contents
@@ -69,21 +69,21 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ##### 📊 csv ➜ Saves results in CSV format
 
 ## 🌟 Features
-##### ✅ Active Information Gathering – Performs direct interaction-based reconnaissance, retrieving real-time data from the target.
-##### ✅ Passive Information Gathering – Collects publicly available data without directly interacting with the target, ensuring stealth.
-##### ✅ WHOIS Lookup – Fetches domain ownership details, registration dates, and contact information for domain intelligence.
-##### ✅ DNS Records Retrieval – Extracts A, MX, NS, TXT, and CNAME records to analyze domain configurations.
-##### ✅ IP & Hosting Information – Resolves the domain’s IP address and provides hosting provider details for footprint analysis.
-##### ✅ Website Vulnerability Scanning – Identifies exposed directories, outdated software, and misconfigurations for security assessment.
-##### ✅ Shodan Open Ports & Services Check – Leverages the Shodan API to detect publicly exposed ports and running services.
-##### ✅ Email Harvesting – Extracts email addresses from the target’s website and indexed pages for contact enumeration.
-##### ✅ Social Media Profile Discovery – Searches for associated social media accounts using OSINT techniques.
-##### ✅ Website Technology Stack Identification – Detects CMS, JavaScript frameworks, web server details, and third-party services.
-##### ✅ VirusTotal Domain Reputation Check – Verifies if a domain or IP is flagged for malware, phishing, or abuse reports.
-##### ✅ Data Breach Lookup via Have I Been Pwned – Checks if emails linked to the domain have been exposed in past breaches.
-##### ✅ GitHub Leaks Discovery – Searches for leaked credentials, API keys, and sensitive data in public GitHub repositories.
-##### ✅ Streamlit Web UI – Provides an intuitive, user-friendly interface for seamless scanning and results visualization.
-##### ✅ Modular & Scalable Architecture – Implements an Object-Oriented design, allowing easy extension with additional scanners.
+##### ✅ Active Information Gathering                 ➜ Performs direct interaction-based reconnaissance, retrieving real-time data from the target.
+##### ✅ Passive Information Gathering                ➜ Collects publicly available data without directly interacting with the target, ensuring stealth.
+##### ✅ WHOIS Lookup                                 ➜ Fetches domain ownership details, registration dates, and contact information for domain intelligence.
+##### ✅ DNS Records Retrieval                        ➜ Extracts A, MX, NS, TXT, and CNAME records to analyze domain configurations.
+##### ✅ IP & Hosting Information                     ➜ Resolves the domain’s IP address and provides hosting provider details for footprint analysis.
+##### ✅ Website Vulnerability Scanning               ➜ Identifies exposed directories, outdated software, and misconfigurations for security assessment.
+##### ✅ Shodan Open Ports & Services Check           ➜ Leverages the Shodan API to detect publicly exposed ports and running services.
+##### ✅ Email Harvesting –                           ➜Extracts email addresses from the target’s website and indexed pages for contact enumeration.
+##### ✅ Social Media Profile Discovery               ➜ Searches for associated social media accounts using OSINT techniques.
+##### ✅ Website Technology Stack Identification      ➜ Detects CMS, JavaScript frameworks, web server details, and third-party services.
+##### ✅ VirusTotal Domain Reputation Check           ➜ Verifies if a domain or IP is flagged for malware, phishing, or abuse reports.
+##### ✅ Data Breach Lookup via Have I Been Pwned     ➜ Checks if emails linked to the domain have been exposed in past breaches.
+##### ✅ GitHub Leaks Discovery                       ➜ Searches for leaked credentials, API keys, and sensitive data in public GitHub repositories.
+##### ✅ Streamlit Web UI                             ➜ Provides an intuitive, user-friendly interface for seamless scanning and results visualization.
+##### ✅ Modular & Scalable Architecture              ➜ Implements an Object-Oriented design, allowing easy extension with additional scanners.
 
 
 ## 📂 Project Structure
