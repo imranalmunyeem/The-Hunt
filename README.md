@@ -194,4 +194,4 @@ streamlit run main.py
 
 ## 📜 License
 
-
+## 🎯 Found this project useful? Give it a ⭐ on GitHub! 🚀🌟
