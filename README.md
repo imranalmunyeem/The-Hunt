@@ -113,25 +113,25 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ```
 
 ## ⚡ Installation
-#### Step 1: Clone the repository:
+#### Step 1 ➜ Clone the repository:
 
    ```bash
    git clone https://github.com/imranalmunyeem/The-Hunt.git
    ```
 
-#### Step 2: Navigate to the project directory:
+#### Step 2 ➜ Navigate to the project directory:
 
    ```bash
    cd The-Hunt
    ```
 
-#### Step 3: Install dependencies:
+#### Step 3 ➜ Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-#### Step 4: Edit 'Config.py' and Add API Keys (For Advanced Scanners)
+#### Step 4 ➜ Edit 'Config.py' and Add API Keys (For Advanced Scanners)
 
   ```bash
   SHODAN_API_KEY = "your_shodan_api_key"
@@ -171,25 +171,25 @@ streamlit run main.py
    git clone https://github.com/imranalmunyeem/The-Hunt.git
    ```
 
-#### Step 1 -> Create a feature branch 
+#### Step 1 ➜ Create a feature branch 
 
    ```bash
    git checkout -b new-feature
    ```
 
-#### Step 1 -> Commit changes 
+#### Step 2 ➜ Commit changes 
 
    ```bash
    git commit -m "Added new feature"
    ```
 
-#### Step 1 -> Push to GitHub
+#### Step 3 ➜ Push to GitHub
 
    ```bash
    git push origin new-feature
    ```
 
-#### Step 1 -> Create a Pull Request! 🚀 
+#### Step 4 ➜ Create a Pull Request! 🚀 
 
 
 ## 📜 License
