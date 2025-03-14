@@ -1,7 +1,7 @@
 # 🔍 The-Hunt ➜ (Automated Information Gathering Tool)
 🚀 An advanced OSINT tool for Active & Passive reconnaissance.
 <br>
-
+<br>
 
 ## 📖 Table of Contents
 - [Introduction](#📌-introduction)
