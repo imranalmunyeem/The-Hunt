@@ -87,6 +87,30 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 
 
 ## 📂 Project Structure
+```
+|-- info_gathering_tool
+|     |-- modules                                  # Core scanning modules
+|          |-- base_scanner.py                     # Parent class for all scanners
+|          |-- active_scanner.py                   # Manages active information gathering
+|          |-- passive_scanner.py                  # Manages passive information gathering
+|          |-- scanners                            # Individual scanners for different tasks
+|               |-- whois_scanner.py               # WHOIS lookup scanner
+|               |-- dns_scanner.py                 # DNS records scanner
+|               |-- ip_scanner.py                  # IP & hosting information scanner
+|               |-- email_scanner.py               # Email harvesting scanner
+|               |-- social_media_scanner.py        # Social media profile scanner
+|               |-- tech_stack_scanner.py          # Technology stack detection scanner
+|               |-- vulnerability_scanner.py       # Website vulnerability scanner
+|               |-- shodan_scanner.py              # Shodan API scanner (open ports, services)
+|               |-- virustotal_scanner.py          # VirusTotal API scanner (domain reputation)
+|               |-- hibp_scanner.py                # HIBP API scanner (breach check)
+|               |-- github_leak_scanner.py         # GitHub leaks scanner (sensitive data)
+|     |-- config.py                                # Stores API keys for Shodan, VirusTotal, HIBP, etc.
+|     |-- main.py                                  # Streamlit UI for interactive scanning
+|-- .gitignore                                     # Excludes unnecessary files from version control
+|-- requirements.txt                               # Lists all dependencies for the project
+|-- README.md                                      # Project documentation
+```
 
 ## ⚡ Installation
 
