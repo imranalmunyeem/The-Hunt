@@ -24,6 +24,7 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ✅ APIs integration with Shodan, VirusTotal, Have I Been Pwned
 ✅ Modular design (easy to add new scanners)
 ✅ Built using Python & Streamlit
+<br>
 
 ## 🛠️ Tools & Libraries Used
 
@@ -157,6 +158,19 @@ streamlit run main.py
 ##### 5️⃣ View results directly in Streamlit UI
 
 ## 🔍 Scanners & Functionalities
+## 🔍 Scanners & Functionalities  
+
+| 🛠️ Scanner                  | 🔎 Description                                             | 📌 Type   |
+|-----------------------------|----------------------------------------------------------|-----------|
+| 🏷️ WHOIS Lookup             | Fetches WHOIS information of a domain                   | Active    |
+| 🌐 DNS Records              | Retrieves A, MX, NS, TXT, CNAME records                 | Active    |
+| 📌 IP & Hosting Info        | Fetches the IP address of a domain                      | Active    |
+| 🛡️ Website Vulnerabilities  | Checks for basic website security flaws                 | Active    |
+| 🔎 Shodan Scan             | Finds open ports & vulnerabilities using Shodan API     | Active    |
+| 📧 Email Harvesting        | Extracts emails from a website                          | Passive   |
+| 🔗 Social Media Presence   | Finds social media profiles of a target                 | Passive   |
+| 🏗️ Tech Stack Identification | Identifies website technologies (CMS, Frameworks)    | Passive   |
+
 <br>
 
 ## ⚙️ Configuration (API Keys)
