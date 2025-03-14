@@ -17,7 +17,7 @@ This repository contains a Test Automation Framework, built using Cypress and Ja
 
 # 📌 Tools & Libraries Used -
 
-[![Python](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/) 
+[![Python](https://img.shields.io/badge/Python-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.python.org/) 
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
 1️⃣ Core Python Libraries
