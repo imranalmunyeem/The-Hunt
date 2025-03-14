@@ -6,7 +6,7 @@
 ## 📖 Table of Contents
 - [Introduction](#introduction)  
 - [Tools & Libraries Used](#tools--libraries-used)  
-- [Features](#🌟-features)  
+- [Features](#-features)  
 - [Project Structure](#project-structure)  
 - [Installation](#installation)  
 - [Usage](#usage)  
