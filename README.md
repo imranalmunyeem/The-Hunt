@@ -1,6 +1,7 @@
 # 🔍 The-Hunt ➜ (Automated Information Gathering Tool)
 🚀 An advanced OSINT tool for Active & Passive reconnaissance.
- 
+<br>
+
 ## 📖 Table of Contents
 - [Introduction](#📌-introduction)
 - [Tools & Libraries Used](#🛠️-tools--libraries-used)
@@ -13,6 +14,7 @@
 - [Future Enhancements](#🚀-future-enhancements)
 - [Contributing](#📝-contributing)
 - [License](#📜-license)
+<br>
 
 ## 📌 Introduction
 This tool automates information gathering for ethical hackers, penetration testers, and security researchers.
@@ -34,15 +36,18 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ##### 📄 json ➜ Handles API responses and data serialization  
 ##### 🖥️ os ➜ Interacts with system commands (if needed)  
 <br>
+
 ### 2️⃣ Web Scraping & HTTP Requests ➡️
 ##### 🌍 requests ➜ Sends HTTP requests to websites and APIs
 ##### 🏗️ BeautifulSoup ➜ Extracts information from HTML pages
 ##### 🕷️ Scrapy ➜ (Optional) For advanced web crawling
 <br>
+
 ### 3️⃣ DNS & WHOIS Lookup ➡️
 ##### 📡 python-whois ➜ Retrieves WHOIS information for domains
 ##### 🌍 dnspython ➜ Resolves DNS records (A, MX, TXT, NS, CNAME)
 <br>
+
 ### 4️⃣ OSINT & Cybersecurity APIs ➡️
 ##### 🔎 Shodan ➜ Finds open ports, services, vulnerabilities
 ##### 🛡️ VirusTotal ➜ Checks if a domain/IP is blacklisted
@@ -64,6 +69,7 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ##### 📑 pandas ➜ Processes and formats scanned data
 ##### 📄 pdfkit ➜ (Optional) Converts reports to PDF
 ##### 📊 csv ➜ Saves results in CSV format
+<br>
 
 ## 🌟 Features
 ##### ✅ Active Information Gathering                 ➜ Performs direct interaction-based reconnaissance, retrieving real-time data from the target.
@@ -81,7 +87,7 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ##### ✅ GitHub Leaks Discovery                       ➜ Searches for leaked credentials, API keys, and sensitive data in public GitHub repositories.
 ##### ✅ Streamlit Web UI                             ➜ Provides an intuitive, user-friendly interface for seamless scanning and results visualization.
 ##### ✅ Modular & Scalable Architecture              ➜ Implements an Object-Oriented design, allowing easy extension with additional scanners.
-
+<br>
 
 ## 📂 Project Structure
 ```
@@ -108,6 +114,7 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 |-- requirements.txt                               # Lists all dependencies for the project
 |-- README.md                                      # Project documentation
 ```
+<br>
 
 ## ⚡ Installation
 #### Step 1 ➜ Clone the repository:
@@ -135,6 +142,7 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
   VIRUSTOTAL_API_KEY = "your_virustotal_api_key"
   HIBP_API_KEY = "your_hibp_api_key"
   ```
+<br>
 
 ## 🛠 Usage
 ####   Running the tool
@@ -149,6 +157,7 @@ streamlit run main.py
 ##### 5️⃣ View results directly in Streamlit UI
 
 ## 🔍 Scanners & Functionalities
+<br>
 
 ## ⚙️ Configuration (API Keys)
 #### Edit 'Config.py' and Add API Keys (For Advanced Scanners)
@@ -158,8 +167,10 @@ streamlit run main.py
   VIRUSTOTAL_API_KEY = "your_virustotal_api_key"
   HIBP_API_KEY = "your_hibp_api_key"
   ```
+<br>
 
 ## 🚀 Future Enhancements
+<br>
 
 ## 📝 Contributing
 #### Step 1 -> Fork the repo 🍴
@@ -187,8 +198,6 @@ streamlit run main.py
    ```
 
 #### Step 4 ➜ Create a Pull Request! 🚀 
-
-
-## 📜 License
+<br>
 
 ## 🎯 Found this project useful? Give it a ⭐ on GitHub! 🚀🌟
