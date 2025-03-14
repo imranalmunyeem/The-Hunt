@@ -12,7 +12,7 @@
 - [Contributing](#Contributing)
 - [License](#License)
 
-## 📖 Introduction
+# 📖 Introduction
 This repository contains a Test Automation Framework, built using Cypress and Javascript for automated testing for this site: https://www.saucedemo.com/
 
 # 📌 Tools & Libraries Used -
