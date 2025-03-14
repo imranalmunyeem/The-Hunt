@@ -202,4 +202,11 @@ streamlit run main.py
 #### Step 4 ➜ Create a Pull Request! 🚀 
 <br>
 
-## 🎯 Found this project useful? Give it a ⭐ on GitHub! 🚀🌟
+## 👨‍💻 Connect with me  
+💼 **Portfolio:** [munyeem](https://munyeem.netlify.app)  
+✉️ **Email:** [munyeem.swe@gmail.com](mailto:munyeem.swe@gmail.com)    
+📂 **GitHub:** [@imranalmunyeem](https://github.com/imranalmunyeem)  
+<br>
+
+## 🎯 Found this project useful? 
+## Give it a ⭐ on GitHub! 🚀🌟
