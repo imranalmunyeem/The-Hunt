@@ -80,7 +80,7 @@
 
 <br>
 
-## 📂-Project Structure
+## 📂 Project Structure
 ```
 |-- info_gathering_tool
 |     |-- modules                                  # Core scanning modules
