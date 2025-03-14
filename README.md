@@ -175,7 +175,7 @@ streamlit run main.py
 <br>
 
 ## 📝 Contributing
-#### Step 1 -> Fork the repo 🍴
+#### Step 1 ➜ Fork the repo 🍴
 
    ```bash
    git clone https://github.com/imranalmunyeem/The-Hunt.git
