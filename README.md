@@ -207,7 +207,7 @@ streamlit run main.py
 💼 **Portfolio ➜** [munyeem.netlify.app](https://munyeem.netlify.app)  
 📂 **GitHub ➜** [@imranalmunyeem](https://github.com/imranalmunyeem)  
 ✉️ **Email ➜** [munyeem.swe@gmail.com](mailto:munyeem.swe@gmail.com)  
-🔗 **LinkedIn ➜** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/imranalmunyeem/)  
+🔗 **LinkedIn ➜** [imranalmunyeem](https://www.linkedin.com/in/imranalmunyeem/)  
 
 ## 👨‍💻 About the Developer  
 <br>
