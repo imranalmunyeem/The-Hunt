@@ -18,7 +18,7 @@
 
 <br>
 
-## 📌 Introduction
+## Introduction
 ##### This tool automates information gathering for ethical hackers, penetration testers, and security researchers.
 ##### It provides both Active and Passive reconnaissance techniques, allowing users to scan domains, IPs, emails, and websites efficiently.
 
