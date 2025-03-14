@@ -25,9 +25,8 @@ This repository contains a Test Automation Framework, built using Cypress and Ja
 ##### 🔍 re ➜ Regular expressions for parsing emails, URLs, etc.  
 ##### 📄 json ➜ Handles API responses and data serialization  
 ##### 🖥️ os ➜ Interacts with system commands (if needed)  
-##### 
-##### 
-##### 
+<br>
+<br>
 2️⃣ Web Scraping & HTTP Requests
 ##### 🌍 requests ➜ Sends HTTP requests to websites and APIs
 ##### 🏗️ BeautifulSoup ➜ Extracts information from HTML pages
