@@ -1,4 +1,4 @@
-# 🔍 The-Hunt ➡️ Automated Information Gathering Tool
+# 🔍 The-Hunt ➡ (Automated Information Gathering Tool)
 🚀 An advanced OSINT tool for Active & Passive reconnaissance, integrating APIs like Shodan, VirusTotal, and Have I Been Pwned.
 🔍 Built with Python & Streamlit for an intuitive UI and modular scanning framework.
  
