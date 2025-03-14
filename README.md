@@ -31,63 +31,51 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 [![Python](https://img.shields.io/badge/Python-17202C?style=for-the-badge&logo=python&logoColor=yellow)](https://www.python.org/) 
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
-### 1️⃣ Core Python Libraries ➡️
-##### 🌐 socket ➜ Fetches IP addresses of domains  
-##### 🔍 re ➜ Regular expressions for parsing emails, URLs, etc.  
-##### 📄 json ➜ Handles API responses and data serialization  
-##### 🖥️ os ➜ Interacts with system commands (if needed)  
+| 📦 Library / Tool       | 🔍 Purpose                                                       |
+|------------------------|----------------------------------------------------------------|
+| 🌐 socket             | Fetches IP addresses of domains.                               |
+| 🔍 re                 | Uses Regular Expressions for parsing emails, URLs, etc.       |
+| 📄 json               | Handles API responses and data serialization.                 |
+| 🖥️ os                 | Interacts with system commands (if needed).                   |
+| 🌍 requests           | Sends HTTP requests to websites and APIs.                     |
+| 🏗️ BeautifulSoup      | Extracts information from HTML pages.                         |
+| 🕷️ Scrapy             | (Optional) For advanced web crawling.                         |
+| 📡 python-whois       | Retrieves WHOIS information for domains.                      |
+| 🌍 dnspython          | Resolves DNS records (A, MX, TXT, NS, CNAME).                 |
+| 🔎 Shodan            | Finds open ports, services, vulnerabilities.                   |
+| 🛡️ VirusTotal        | Checks if a domain/IP is blacklisted.                         |
+| 🔐 Have I Been Pwned (HIBP) | Checks if emails are in data breaches.                |
+| 🌍 crt.sh            | Finds subdomains using certificate transparency logs.          |
+| 🔄 ViewDNS.info      | Performs reverse IP lookups.                                   |
+| 📱 Selenium          | Scrapes social media profiles.                                |
+| 🛠️ GitHub API        | Finds leaked credentials in public repositories.              |
+| 📊 Streamlit        | Creates an interactive web-based UI.                           |
+| 📑 pandas            | Processes and formats scanned data.                           |
+| 📄 pdfkit            | (Optional) Converts reports to PDF.                           |
+| 📊 csv               | Saves results in CSV format.                                  |
+
 <br>
 
-### 2️⃣ Web Scraping & HTTP Requests ➡️
-##### 🌍 requests ➜ Sends HTTP requests to websites and APIs
-##### 🏗️ BeautifulSoup ➜ Extracts information from HTML pages
-##### 🕷️ Scrapy ➜ (Optional) For advanced web crawling
-<br>
+## 🌟 Features  
 
-### 3️⃣ DNS & WHOIS Lookup ➡️
-##### 📡 python-whois ➜ Retrieves WHOIS information for domains
-##### 🌍 dnspython ➜ Resolves DNS records (A, MX, TXT, NS, CNAME)
-<br>
+| 🚀 Feature                         | 🔍 Description                                                                                  |
+|------------------------------------|----------------------------------------------------------------------------------------------|
+| ✅ Active Information Gathering    | Performs direct interaction-based reconnaissance, retrieving real-time data from the target. |
+| ✅ Passive Information Gathering   | Collects publicly available data without directly interacting with the target, ensuring stealth. |
+| ✅ WHOIS Lookup                    | Fetches domain ownership details, registration dates, and contact information.              |
+| ✅ DNS Records Retrieval           | Extracts A, MX, NS, TXT, and CNAME records to analyze domain configurations.               |
+| ✅ IP & Hosting Information        | Resolves the domain’s IP address and provides hosting provider details.                     |
+| ✅ Website Vulnerability Scanning  | Identifies exposed directories, outdated software, and misconfigurations.                   |
+| ✅ Shodan Open Ports Check         | Uses the Shodan API to detect publicly exposed ports and running services.                  |
+| ✅ Email Harvesting                | Extracts email addresses from the target’s website and indexed pages.                       |
+| ✅ Social Media Profile Discovery  | Searches for associated social media accounts using OSINT techniques.                      |
+| ✅ Website Technology Detection    | Identifies CMS, JavaScript frameworks, web servers, and third-party services.              |
+| ✅ VirusTotal Domain Check         | Verifies if a domain/IP is flagged for malware, phishing, or abuse reports.                |
+| ✅ Data Breach Lookup (HIBP)       | Checks if emails linked to the domain have been exposed in past breaches.                   |
+| ✅ GitHub Leaks Discovery          | Searches for leaked credentials, API keys, and sensitive data in public GitHub repositories. |
+| ✅ Streamlit Web UI                 | Provides an intuitive, user-friendly interface for seamless scanning.                       |
+| ✅ Modular & Scalable Architecture | Implements an Object-Oriented design, allowing easy extension with additional scanners.    |
 
-### 4️⃣ OSINT & Cybersecurity APIs ➡️
-##### 🔎 Shodan ➜ Finds open ports, services, vulnerabilities
-##### 🛡️ VirusTotal ➜ Checks if a domain/IP is blacklisted
-##### 🔐 Have I Been Pwned (HIBP) ➜ Checks if emails are in data breaches
-##### 🌍 crt.sh ➜ Finds subdomains using certificate transparency logs
-##### 🔄 ViewDNS ➜ Performs reverse IP lookups
-<br>
-
-### 5️⃣ Social Media & GitHub Intelligence ➡️
-##### 📱 Selenium ➜ Scrapes social media profiles
-##### 🛠️ GitHub API ➜ Finds leaked credentials in public repositories
-<br>
-
-### 6️⃣ Web Framework & UI ➡️
-##### 📊 Streamlit ➜ Creates an interactive web-based UI
-<br>
-
-### 7️⃣ Reporting & Export ➡️
-##### 📑 pandas ➜ Processes and formats scanned data
-##### 📄 pdfkit ➜ (Optional) Converts reports to PDF
-##### 📊 csv ➜ Saves results in CSV format
-<br>
-
-## 🌟 Features
-##### ✅ Active Information Gathering                 ➜ Performs direct interaction-based reconnaissance, retrieving real-time data from the target.
-##### ✅ Passive Information Gathering                ➜ Collects publicly available data without directly interacting with the target, ensuring stealth.
-##### ✅ WHOIS Lookup                                 ➜ Fetches domain ownership details, registration dates, and contact information for domain intelligence.
-##### ✅ DNS Records Retrieval                        ➜ Extracts A, MX, NS, TXT, and CNAME records to analyze domain configurations.
-##### ✅ IP & Hosting Information                     ➜ Resolves the domain’s IP address and provides hosting provider details for footprint analysis.
-##### ✅ Website Vulnerability Scanning               ➜ Identifies exposed directories, outdated software, and misconfigurations for security assessment.
-##### ✅ Shodan Open Ports & Services Check           ➜ Leverages the Shodan API to detect publicly exposed ports and running services.
-##### ✅ Email Harvesting –                           ➜Extracts email addresses from the target’s website and indexed pages for contact enumeration.
-##### ✅ Social Media Profile Discovery               ➜ Searches for associated social media accounts using OSINT techniques.
-##### ✅ Website Technology Stack Identification      ➜ Detects CMS, JavaScript frameworks, web server details, and third-party services.
-##### ✅ VirusTotal Domain Reputation Check           ➜ Verifies if a domain or IP is flagged for malware, phishing, or abuse reports.
-##### ✅ Data Breach Lookup via Have I Been Pwned     ➜ Checks if emails linked to the domain have been exposed in past breaches.
-##### ✅ GitHub Leaks Discovery                       ➜ Searches for leaked credentials, API keys, and sensitive data in public GitHub repositories.
-##### ✅ Streamlit Web UI                             ➜ Provides an intuitive, user-friendly interface for seamless scanning and results visualization.
-##### ✅ Modular & Scalable Architecture              ➜ Implements an Object-Oriented design, allowing easy extension with additional scanners.
 <br>
 
 ## 📂 Project Structure
