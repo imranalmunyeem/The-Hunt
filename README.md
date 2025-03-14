@@ -113,8 +113,37 @@ It provides both Active and Passive reconnaissance techniques, allowing users to
 ```
 
 ## ⚡ Installation
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/imranalmunyeem/The-Hunt.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd The-Hunt
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Edit 'Config.py' and Add API Keys (For Advanced Scanners)
+
+  ```bash
+  SHODAN_API_KEY = "your_shodan_api_key"
+  VIRUSTOTAL_API_KEY = "your_virustotal_api_key"
+  HIBP_API_KEY = "your_hibp_api_key"
+  ```
 
 ## 🛠 Usage
+####   Running the tool
+  ```bash
+streamlit run main.py
+  ```
 
 ## 🔍 Scanners & Functionalities
 
