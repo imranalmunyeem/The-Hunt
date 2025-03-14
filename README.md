@@ -20,7 +20,7 @@ This repository contains a Test Automation Framework, built using Cypress and Ja
 [![Python](https://img.shields.io/badge/Python-17202C?style=for-the-badge&logo=python&logoColor=yellow)](https://www.python.org/) 
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
-#### 1️⃣ Core Python Libraries ➡️
+### 1️⃣ Core Python Libraries ➡️
 ##### 🌐 socket ➜ Fetches IP addresses of domains  
 ##### 🔍 re ➜ Regular expressions for parsing emails, URLs, etc.  
 ##### 📄 json ➜ Handles API responses and data serialization  
